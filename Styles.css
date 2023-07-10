@@ -40,6 +40,7 @@
   line-height: 30px;
   margin-bottom: 32px;
 }
+/* ______ Button ______ */
 
 .btn-praimary {
   width: 180px;
@@ -50,8 +51,92 @@
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-praimary:hover {
+  background-color: rgb(185, 185, 185);
+  color: #e55473;
+  border: 2px solid #e55473;
 }
 
 .banner-image-container {
   margin-top: 50px;
+}
+
+/* Featured Flowers Section Start Form Here */
+
+.featured-container {
+  max-width: 1440px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 128px;
+}
+
+.featured-text-container {
+  margin-top: 170px;
+}
+
+.featured-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.featured-title-description {
+  max-width: 595px;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.featured-items-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-item1,
+.featured-item2,
+.featured-item3 {
+  width: 465px;
+  height: 540px;
+  border-radius: 300px 300px 0 0;
+  margin-bottom: 32px;
+}
+
+.featured-item1 {
+  background-color: rgba(167, 33, 98, 0.15);
+
+}
+.featured-item1 > img {
+   margin-top: 110px;
+}
+
+.featured-item2 {
+   background-color: rgba(5, 151, 160, 0.15);
+}
+
+
+.featured-item2 > img {
+   margin-top: 117px;
+}
+
+.featured-item3 {
+   background-color: rgba(71, 125, 17, 0.15) ;
+}
+
+.featured-item3 > img {
+   margin-top: 67px;
+}
+
+.featured-item-title > a{
+   color: #272727;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 35px;  
 }
