@@ -44,7 +44,7 @@
 
 .btn-praimary {
   width: 180px;
-  height: 65px;
+  height: 64px;
   background-color: #e55473;
   border: none;
   border-radius: 8px;
@@ -111,34 +111,32 @@
 
 .featured-item1 {
   background-color: rgba(167, 33, 98, 0.15);
-
 }
 .featured-item1 > img {
-   margin-top: 110px;
+  margin-top: 110px;
 }
 
 .featured-item2 {
-   background-color: rgba(5, 151, 160, 0.15);
+  background-color: rgba(5, 151, 160, 0.15);
 }
 
-
 .featured-item2 > img {
-   margin-top: 117px;
+  margin-top: 117px;
 }
 
 .featured-item3 {
-   background-color: rgba(71, 125, 17, 0.15) ;
+  background-color: rgba(71, 125, 17, 0.15);
 }
 
 .featured-item3 > img {
-   margin-top: 67px;
+  margin-top: 67px;
 }
 
-.featured-item-title > a{
-   color: #272727;
-   font-size: 24px;
-   font-weight: 700;
-   line-height: 35px;  
+.featured-item-title > a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
 }
 
 /* Sales-Offer Section Start Form Here */
@@ -162,12 +160,13 @@
 .sale-offer-title-text {
   color: #272727;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 7 900;
   margin-bottom: 24px;
 }
 
 .sale-offer-title-text span {
   color: #e55473;
+  font-size: 50px;
 }
 .sale-offer-description {
   max-width: 595px;
@@ -180,4 +179,100 @@
 
 .btn-signup {
   width: 155px;
+}
+
+/* Instagram Post Section Start Form Here */
+.instagram-post-container {
+  max-width: 1440px;
+  margin: 128px auto;
+  text-align: center;
+}
+
+.instagram-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.instagram-title-description {
+  max-width: 595px;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.instagram-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-image-container > img {
+  display: inline-block;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px rgb(128, 128, 128);
+  border-radius: 8px;
+}
+
+/* Newsletter Section Start Form Here */
+
+.newsletter-container {
+  max-width: 1440px;
+  height: 450px;
+  margin: auto;
+  margin-bottom: 128px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(229, 84, 115, 0.3),
+      rgba(229, 84, 115, 0.2)
+    ),
+    url("./Flower Asset/bg-newsletter.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.newsletter-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 900;
+  padding-top: 122px;
+  margin-bottom: 16px;
+}
+
+.newsletter-title > span {
+  color: #e55473;
+  font-size: 50px;
+}
+
+.newsletter-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.newsletter-email-container > input {
+  display: inline-block;
+  width: 700px;
+  height: 65px;
+  padding-left: 22px;
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.newsletter-email-container > a {
+  display: inline-block;
+
+}
+
+.btn-subscrib {
+  width: 150px;
 }
