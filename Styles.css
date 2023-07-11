@@ -58,7 +58,7 @@
 }
 
 .btn-praimary:hover {
-  background-color: rgb(185, 185, 185);
+  background-color: rgba(167, 33, 98, 0.15);
   color: #e55473;
   border: 2px solid #e55473;
 }
@@ -148,6 +148,62 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
+  transition: 0.3s;
+}
+.featured-item-title:hover > a {
+  color: #e55473;
+}
+
+/* Service Section Start Form Here */
+
+.service-container {
+  max-width: 1200px;
+  height: 320px;
+  margin: auto;
+  margin-bottom: 128px;
+  text-align: center;
+}
+
+.service-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.service-title > span {
+  color: #e55473;
+  font-size: 45px;
+}
+
+.service-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-item-img {
+  background-color: rgba(229, 84, 115, 0.568);
+  border-radius: 50%;
+  box-shadow: 3px 3px 30px #e55473;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.service-item-name {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.service-item-name > a {
+  text-decoration: none;
+  color: rgba(39, 39, 39, 0.8);
+  transition: 0.3s;
+
+}
+.service-item-name:hover > a {
+  color: #e55473;
 }
 
 /* Sales-Offer Section Start Form Here */
@@ -208,7 +264,7 @@
 
 .instagram-title > span {
   color: #e55473;
-  font-size: 45px;  
+  font-size: 45px;
 }
 
 .instagram-title-description {
@@ -262,9 +318,7 @@ hr {
 
 .about-info-container {
   text-align: left;
-
 }
-
 
 .about-title {
   color: #272727;
@@ -292,10 +346,6 @@ hr {
   display: inline-block;
   margin-right: 22px;
 }
-
-
-
-
 
 /* Newsletter Section Start Form Here */
 
