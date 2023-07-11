@@ -152,6 +152,7 @@
 }
 .featured-item-title:hover > a {
   color: #e55473;
+  text-decoration: none;
 }
 
 
